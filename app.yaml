@@ -1,0 +1,10 @@
+runtime: go
+env: flex
+
+automatic_scaling:
+  min_num_instances: 1
+
+# [START gae_flex_analytics_env_variables]
+env_variables:
+  GA_TRACKING_ID: UA-172205964-1
+# [END gae_flex_analytics_env_variables]
